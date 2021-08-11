@@ -19,7 +19,7 @@ button{
     background: seashell;
     color: rgb(20, 152, 212);
     border: none;
-    border: rgb(4, 233, 4) 2px solid;
+    border: rgb(4, 57, 233) 2px solid;
 }
 
 button:hover{
@@ -35,7 +35,7 @@ nav a{
     text-decoration: none;
 }
 
-section{
+.hero{
 padding: 150px 50px;
 background-image: url(Cosmos.jpg);
 background-size: cover;
@@ -44,11 +44,11 @@ background-position: center center;
 
 h1{
     font-size: 50px;
-    color: wheat;
-    font-family: 'Pacifico', cursive;
+    color: rgb(255, 255, 255);
+    font-family: 'Hahmlet', serif;
 }
 
-section p{
+.hero p{
     color: whitesmoke;
     max-width: 50%;
     margin-top: 20px;
@@ -61,4 +61,84 @@ footer{
     color: white;
     padding: 30px 50px;
     font-family: Tahama;
+}
+ 
+.card img{
+    width: 70px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.card{
+    width: 30%;
+}
+
+h2{
+    font-family: 'Hahmlet', serif;
+    color: rgb(107, 24, 163);
+    padding: 20px 0;
+}
+.card h3{
+    color: rebeccapurple;
+    padding: 20px 0;
+    font-family: 'Hahmlet', serif;
+}
+    
+.section {
+padding: 50px ;
+background: plum;
+text-align: center;
+}
+
+@media(max-width: 700px){
+    header{ 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    nav a{
+        margin: 0 10px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .wrapper{
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .hero p{
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero{
+        padding: 50px 30px;
+    }
+
+    button{
+        margin-left: 0 ;
+    }
+
+    footer{
+        text-align: center;
+    }
 }
