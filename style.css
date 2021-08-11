@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+background: rgb(108, 92, 134);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 30px 50px;
+}
+
+button{
+    margin-left: 50px;
+    font-family: Tahoma;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: seashell;
+    color: rgb(20, 152, 212);
+    border: none;
+    border: rgb(4, 233, 4) 2px solid;
+}
+
+button:hover{
+    background: rgb(61, 214, 219);
+    color:cornflowerblue;
+    cursor: pointer;
+}
+
+nav a{
+    margin-left: 40px;
+    color: rgb(197, 191, 197);
+    font-family: Tahoma;
+    text-decoration: none;
+}
+
+section{
+padding: 150px 50px;
+background-image: url(Cosmos.jpg);
+background-size: cover;
+background-position: center center;
+}
+
+h1{
+    font-size: 50px;
+    color: wheat;
+    font-family: 'Pacifico', cursive;
+}
+
+section p{
+    color: whitesmoke;
+    max-width: 50%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+
+footer{
+    background: rgb(101, 72, 112);
+    color: white;
+    padding: 30px 50px;
+    font-family: Tahama;
+}
